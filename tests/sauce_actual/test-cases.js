@@ -70,5 +70,6 @@ describe('MicroUI(' + desired.browserName + ')', function() {
             .title()
             .should.become("Microservices Sample")
             .nodeify(done);
+        woot();
     });
 });
